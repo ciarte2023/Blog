@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (targetElement) {
                 var headerHeight = document.querySelector("header").offsetHeight; // Altura do cabeçalho
-                var marginToHeader = 100;
+                var marginToHeader = 30;
                 var targetOffset = targetElement.offsetTop - headerHeight - marginToHeader;
                 var animationDuration = 1000;
 
