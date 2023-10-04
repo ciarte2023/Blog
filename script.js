@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
     
     links.forEach(function (link) {
         link.addEventListener("click", function (event) {
-            event.preventDefault(); // Impede o comportamento padrão do link
+            event.preventDefault();
 
             var targetId = this.getAttribute("href").substring(1);
             var targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                var headerHeight = document.querySelector("header").offsetHeight; // Altura do cabeçalho
+                var headerHeight = document.querySelector("header").offsetHeight;
                 var marginToHeader = 30;
                 var targetOffset = targetElement.offsetTop - headerHeight - marginToHeader;
                 var animationDuration = 1000;

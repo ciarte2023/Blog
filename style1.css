@@ -122,10 +122,6 @@ footer p {
     article p {
         font-size: 18px;
     }
-    .causes-content {
-        display: block;
-        align-items: normal;
-    }
 }
 @media (max-width: 480px) {
     header h1, header h2 {
